@@ -63,9 +63,9 @@ Implements a local hidden-variable model based on Bell’s assumptions.
 Key results:
 - Numerical evaluation of correlation functions via Monte Carlo sampling
 - Verification that the CHSH parameter satisfies  
-  \[
+$
   |S| \le 2
-  \]
+$
   for all sample sizes and measurement settings
 
 ---
@@ -75,9 +75,9 @@ Computes quantum correlations for the singlet state:
 - Exact quantum correlation: \(E_{\mathrm{QM}}(\theta) = -\cos\theta\)
 - Monte Carlo simulation of quantum measurement outcomes
 - Demonstration of Bell–CHSH violation:
-  \[
+$
   |S| = 2\sqrt{2}
-  \]
+$
 
 ---
 
@@ -85,9 +85,9 @@ Computes quantum correlations for the singlet state:
 Studies how noise affects Bell violations using a visibility model:
 - Correlations scaled as \(E_V(\theta) = V E_{\mathrm{QM}}(\theta)\)
 - Identification of the critical visibility:
-  \[
+$
   V_{\mathrm{crit}} = \frac{1}{\sqrt{2}}
-  \]
+$
 - Interpretation of noise as loss of entanglement or experimental imperfections
 
 ---
@@ -98,7 +98,7 @@ Implements the Bell–CHSH test using quantum circuits:
 - Measurement along arbitrary axes via basis rotations
 - Estimation of correlations from shot statistics
 - Observation of Bell violation on a quantum simulator
-- Inclusion of depolarising noise and degradation of \(S\)
+- Inclusion of depolarising noise and degradation of $S$
 - Verification of the no-signalling principle via marginal probabilities
 
 ---
@@ -107,11 +107,11 @@ Implements the Bell–CHSH test using quantum circuits:
 
 | Model | CHSH Value |
 |-----|-----------|
-| Local Hidden Variables | \(|S| \approx 2.0\) |
-| Quantum Mechanics (Exact) | \(|S| = 2\sqrt{2}\) |
-| Quantum Monte Carlo | \(|S| \approx 2.8\) |
-| Qiskit Simulator | \(|S| \approx 2.8\) |
-| Noisy Quantum Model | \(|S| \rightarrow 2\) |
+| Local Hidden Variables | $\abs S \approx 2.0$ |
+| Quantum Mechanics (Exact) |$\absS = 2\sqrt{2}$ |
+| Quantum Monte Carlo | $\absS \approx 2.8$ |
+| Qiskit Simulator | $ \absS \approx 2.8$ |
+| Noisy Quantum Model | $ \abs S \rightarrow 2$ |
 
 ---
 
